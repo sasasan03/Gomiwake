@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6905D735297C0BA9006E888C /* GomiwakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6905D734297C0BA9006E888C /* GomiwakeApp.swift */; };
+		6905D737297C0BA9006E888C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6905D736297C0BA9006E888C /* ContentView.swift */; };
+		6905D739297C0BAD006E888C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6905D738297C0BAD006E888C /* Assets.xcassets */; };
+		6905D73C297C0BAD006E888C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6905D73B297C0BAD006E888C /* Preview Assets.xcassets */; };
+		6905D746297C0BAD006E888C /* GomiwakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6905D745297C0BAD006E888C /* GomiwakeTests.swift */; };
+		6905D750297C0BAD006E888C /* GomiwakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6905D74F297C0BAD006E888C /* GomiwakeUITests.swift */; };
+		6905D752297C0BAD006E888C /* GomiwakeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6905D751297C0BAD006E888C /* GomiwakeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6905D742297C0BAD006E888C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6905D729297C0BA9006E888C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6905D730297C0BA9006E888C;
+			remoteInfo = Gomiwake;
+		};
+		6905D74C297C0BAD006E888C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6905D729297C0BA9006E888C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6905D730297C0BA9006E888C;
+			remoteInfo = Gomiwake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6905D731297C0BA9006E888C /* Gomiwake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gomiwake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6905D734297C0BA9006E888C /* GomiwakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GomiwakeApp.swift; sourceTree = "<group>"; };
+		6905D736297C0BA9006E888C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6905D738297C0BAD006E888C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6905D73B297C0BAD006E888C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6905D741297C0BAD006E888C /* GomiwakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GomiwakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6905D745297C0BAD006E888C /* GomiwakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GomiwakeTests.swift; sourceTree = "<group>"; };
+		6905D74B297C0BAD006E888C /* GomiwakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GomiwakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6905D74F297C0BAD006E888C /* GomiwakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GomiwakeUITests.swift; sourceTree = "<group>"; };
+		6905D751297C0BAD006E888C /* GomiwakeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GomiwakeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6905D72E297C0BA9006E888C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6905D73E297C0BAD006E888C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6905D748297C0BAD006E888C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6905D728297C0BA9006E888C = {
+			isa = PBXGroup;
+			children = (
+				6905D733297C0BA9006E888C /* Gomiwake */,
+				6905D744297C0BAD006E888C /* GomiwakeTests */,
+				6905D74E297C0BAD006E888C /* GomiwakeUITests */,
+				6905D732297C0BA9006E888C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6905D732297C0BA9006E888C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6905D731297C0BA9006E888C /* Gomiwake.app */,
+				6905D741297C0BAD006E888C /* GomiwakeTests.xctest */,
+				6905D74B297C0BAD006E888C /* GomiwakeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6905D733297C0BA9006E888C /* Gomiwake */ = {
+			isa = PBXGroup;
+			children = (
+				6905D734297C0BA9006E888C /* GomiwakeApp.swift */,
+				6905D736297C0BA9006E888C /* ContentView.swift */,
+				6905D738297C0BAD006E888C /* Assets.xcassets */,
+				6905D73A297C0BAD006E888C /* Preview Content */,
+			);
+			path = Gomiwake;
+			sourceTree = "<group>";
+		};
+		6905D73A297C0BAD006E888C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6905D73B297C0BAD006E888C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6905D744297C0BAD006E888C /* GomiwakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6905D745297C0BAD006E888C /* GomiwakeTests.swift */,
+			);
+			path = GomiwakeTests;
+			sourceTree = "<group>";
+		};
+		6905D74E297C0BAD006E888C /* GomiwakeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6905D74F297C0BAD006E888C /* GomiwakeUITests.swift */,
+				6905D751297C0BAD006E888C /* GomiwakeUITestsLaunchTests.swift */,
+			);
+			path = GomiwakeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6905D730297C0BA9006E888C /* Gomiwake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6905D755297C0BAD006E888C /* Build configuration list for PBXNativeTarget "Gomiwake" */;
+			buildPhases = (
+				6905D72D297C0BA9006E888C /* Sources */,
+				6905D72E297C0BA9006E888C /* Frameworks */,
+				6905D72F297C0BA9006E888C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gomiwake;
+			productName = Gomiwake;
+			productReference = 6905D731297C0BA9006E888C /* Gomiwake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6905D740297C0BAD006E888C /* GomiwakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6905D758297C0BAD006E888C /* Build configuration list for PBXNativeTarget "GomiwakeTests" */;
+			buildPhases = (
+				6905D73D297C0BAD006E888C /* Sources */,
+				6905D73E297C0BAD006E888C /* Frameworks */,
+				6905D73F297C0BAD006E888C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6905D743297C0BAD006E888C /* PBXTargetDependency */,
+			);
+			name = GomiwakeTests;
+			productName = GomiwakeTests;
+			productReference = 6905D741297C0BAD006E888C /* GomiwakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6905D74A297C0BAD006E888C /* GomiwakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6905D75B297C0BAD006E888C /* Build configuration list for PBXNativeTarget "GomiwakeUITests" */;
+			buildPhases = (
+				6905D747297C0BAD006E888C /* Sources */,
+				6905D748297C0BAD006E888C /* Frameworks */,
+				6905D749297C0BAD006E888C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6905D74D297C0BAD006E888C /* PBXTargetDependency */,
+			);
+			name = GomiwakeUITests;
+			productName = GomiwakeUITests;
+			productReference = 6905D74B297C0BAD006E888C /* GomiwakeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6905D729297C0BA9006E888C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6905D730297C0BA9006E888C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					6905D740297C0BAD006E888C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6905D730297C0BA9006E888C;
+					};
+					6905D74A297C0BAD006E888C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6905D730297C0BA9006E888C;
+					};
+				};
+			};
+			buildConfigurationList = 6905D72C297C0BA9006E888C /* Build configuration list for PBXProject "Gomiwake" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6905D728297C0BA9006E888C;
+			productRefGroup = 6905D732297C0BA9006E888C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6905D730297C0BA9006E888C /* Gomiwake */,
+				6905D740297C0BAD006E888C /* GomiwakeTests */,
+				6905D74A297C0BAD006E888C /* GomiwakeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6905D72F297C0BA9006E888C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6905D73C297C0BAD006E888C /* Preview Assets.xcassets in Resources */,
+				6905D739297C0BAD006E888C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6905D73F297C0BAD006E888C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6905D749297C0BAD006E888C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6905D72D297C0BA9006E888C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6905D737297C0BA9006E888C /* ContentView.swift in Sources */,
+				6905D735297C0BA9006E888C /* GomiwakeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6905D73D297C0BAD006E888C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6905D746297C0BAD006E888C /* GomiwakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6905D747297C0BAD006E888C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6905D752297C0BAD006E888C /* GomiwakeUITestsLaunchTests.swift in Sources */,
+				6905D750297C0BAD006E888C /* GomiwakeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6905D743297C0BAD006E888C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6905D730297C0BA9006E888C /* Gomiwake */;
+			targetProxy = 6905D742297C0BAD006E888C /* PBXContainerItemProxy */;
+		};
+		6905D74D297C0BAD006E888C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6905D730297C0BA9006E888C /* Gomiwake */;
+			targetProxy = 6905D74C297C0BAD006E888C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6905D753297C0BAD006E888C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6905D754297C0BAD006E888C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6905D756297C0BAD006E888C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gomiwake/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sako.Gomiwake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6905D757297C0BAD006E888C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gomiwake/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sako.Gomiwake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6905D759297C0BAD006E888C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sako.GomiwakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gomiwake.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gomiwake";
+			};
+			name = Debug;
+		};
+		6905D75A297C0BAD006E888C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sako.GomiwakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gomiwake.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gomiwake";
+			};
+			name = Release;
+		};
+		6905D75C297C0BAD006E888C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sako.GomiwakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gomiwake;
+			};
+			name = Debug;
+		};
+		6905D75D297C0BAD006E888C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sako.GomiwakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gomiwake;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6905D72C297C0BA9006E888C /* Build configuration list for PBXProject "Gomiwake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6905D753297C0BAD006E888C /* Debug */,
+				6905D754297C0BAD006E888C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6905D755297C0BAD006E888C /* Build configuration list for PBXNativeTarget "Gomiwake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6905D756297C0BAD006E888C /* Debug */,
+				6905D757297C0BAD006E888C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6905D758297C0BAD006E888C /* Build configuration list for PBXNativeTarget "GomiwakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6905D759297C0BAD006E888C /* Debug */,
+				6905D75A297C0BAD006E888C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6905D75B297C0BAD006E888C /* Build configuration list for PBXNativeTarget "GomiwakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6905D75C297C0BAD006E888C /* Debug */,
+				6905D75D297C0BAD006E888C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6905D729297C0BA9006E888C /* Project object */;
+}
