@@ -11,7 +11,8 @@ import SwiftUI
 struct GomiwakeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            DragView(showingDragView: Binding<Bool>.constant(false), showingHomeView: Binding<Bool>.constant(false))
         }
     }
 }

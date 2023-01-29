@@ -8,14 +8,52 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var showingTouchView = false
+    @State private var showingDragView = false
+    @State private var showingHomeView = true
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        if showingHomeView {
+            NavigationStack{
+                GeometryReader { proxy in
+                    ZStack {
+                        VStack {
+                            Spacer()
+                            HStack {
+                                Spacer()
+                                Image(systemName: "trash.fill")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: proxy.size.width * 0.3, height: proxy.size.width * 0.3)
+                                    .foregroundColor(.accentColor)
+                                Spacer()
+                            }
+                            Spacer()
+                        }
+                        VStack{
+                            Spacer()
+                            HStack{
+                                Button("おして"){
+                                    showingTouchView = true
+                                    showingHomeView = false
+                                   
+                                }
+                                    .padding()
+                                Button("ずらして"){
+                                    showingDragView =  true
+                                    showingHomeView = false
+                                }
+                                    .padding()
+                            }
+                        }
+                    }
+                }
+            }
         }
-        .padding()
+        if showingDragView {
+            DragView(showingDragView: $showingDragView,showingHomeView: $showingHomeView)
+        }
     }
 }
 
