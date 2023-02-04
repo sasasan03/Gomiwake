@@ -9,43 +9,21 @@ import SwiftUI
 
 struct RemoveArrayTest: View {
     
-    @State private var array = ["a","b","c","d","e"]
-    @State private var shuffleArray2: [String] = []
-    @State var firstItem = ""
-    func shuffleArray() -> [String] {
-        shuffleArray2 = array.shuffled()
-        print(#function)
-        print(">>>6", shuffleArray2,firstItem)
-        return shuffleArray2
-    }
+    @State private var array = ["a","b","c","d","e"].shuffled()
+
     var body: some View {
         VStack{
-            Text(firstItem)
-                .onAppear{
-                    print(">>>1", shuffleArray2,firstItem)
-                  firstItem = shuffleArray().first ?? "nil"
-                    print(">>>2", shuffleArray2,firstItem)
-                }
-                
+            Text(array[0])
             Button {
-                print(">>>3", shuffleArray2,firstItem)
-                shuffleArray2.removeFirst()
-                print(">>>4", shuffleArray2,firstItem)
-                firstItem = shuffleArray2.first ?? "nil"
-                print(">>>5", shuffleArray2,firstItem)
+                print(">>>array",array)//OK
+                print(">>>array[0]:",array[0])//OK
+                array.remove(at: 0)
+                print(">>>array.count",array.count)
             } label: {
                 Text("削除")
             }
         }
     }
-    
-//
-//    func shuffleFirstArray() -> String {
-//        firstItem = shuffleArray().first ?? "nil"
-////        shuffleItems.append(contentsOf: array.shuffled())
-//       print("firstItem: \(firstItem)")
-//        return firstItem
-//    }
 }
 
 struct RemoveArrayTest_Previews: PreviewProvider {

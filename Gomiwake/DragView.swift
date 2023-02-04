@@ -21,7 +21,7 @@ struct DragView: View {
         Item(name: "kamikuzu", isSuccessOrFailure: false),
         Item(name: "kutsushita", isSuccessOrFailure: true),
         Item(name: "namagomi", isSuccessOrFailure: false)
-    ]
+    ].shuffled()
     @State var offset: CGSize = CGSize(width: 0, height: 0)
     var drag: some Gesture {
             DragGesture()
@@ -50,37 +50,17 @@ struct DragView: View {
                     DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
                         isWronged = false
                         items.remove(at: 0)
-//                         bangou -= 1
                         offset = CGSize(width: 0,height: 0)
                     }
                 }
             }
         }
-    func shuffleItem() -> [Item] {
-        shuffleItemArray = items.shuffled()
-        print(">>>1", shuffleItemArray)
-        return shuffleItemArray
-    }
-    func putInfirstItem() -> String {
-        let shuffleItem = shuffleItem()
-        print(">>>2", firstImage)
-       return shuffleItem[0].name
-    }
     
     var body: some View {
         NavigationStack {
             GeometryReader { proxy in
                 ZStack{
-                    VStack{ //真ん中へ寄せる
-                        Spacer()
-                        Spacer()
-                    }
-                    HStack{ //真ん中へ寄せる
-                        Spacer()
-                        Spacer()
-                    }
-                    var firstImage = putInfirstItem()
-                    Image(firstImage)
+                    Image(items[0].name)
                         .resizable()
                         .frame(
                             width: proxy.size.width * 0.5,
